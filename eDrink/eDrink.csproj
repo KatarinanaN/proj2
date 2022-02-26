@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazored.LocalStorage" Version="4.1.5" />
+    <PackageReference Include="Blazored.Toast" Version="3.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eDrink.CoreBusiness\eDrink.Core.csproj" />
+    <ProjectReference Include="..\eDrink.DataStore.HardCoded\eDrink.DataStore.HardCoded.csproj" />
+    <ProjectReference Include="..\eDrink.UseCases\eDrink.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>
